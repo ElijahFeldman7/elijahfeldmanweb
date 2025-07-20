@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="max-w-3xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="max-w-xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-center justify-between">
           <div>
-            <h1 className="text-4xl font-bold font-serif italic"><Link to="/">Elijah Feldman</Link></h1>
-            <div className="text-gray-200 text-lg mt-1">
-              <span className="italic">is a <span className="text-white">learner</span>, <span className="text-white">researcher</span>, and</span><br />
-              <span className="italic">aspiring <span className="text-white italic">developer.</span></span>
+            <h1 className="text-5xl font-serif italic"><Link to="/">Elijah Feldman</Link></h1>
+            <div className="text-gray-400 text-xl mt-1">
+              <span className="italic">is a <span>learner</span>, <span>researcher</span>, and</span>
+              <span className="italic"> aspiring <span>developer.</span></span>
             </div>
           </div>
           <div className="ml-8">
