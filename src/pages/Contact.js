@@ -15,8 +15,8 @@ function Contact() {
             </h1>
           </div>
           <div className="ml-8 flex flex-col items-end space-y-2">
-            <Link to="/projects" className="text-white hover:underline font-medium">Projects</Link>
-            <Link to="/contact" className="text-white hover:underline font-medium">Contact Me</Link>
+            <Link to="/projects" className="text-white hover:underline font-medium text-sm">Projects</Link>
+            <Link to="/contact" className="text-white hover:underline font-medium text-sm">Contact Me</Link>
           </div>
         </div>
 

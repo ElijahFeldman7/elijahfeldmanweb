@@ -14,11 +14,10 @@ code {
 }
 
 .text-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 1rem;
-    border-radius: 0.5rem;
 }
 
-a {
-    color: #195cfa;
+::selection {
+  background: #87CEFA;
 }
