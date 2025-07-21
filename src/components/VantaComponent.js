@@ -30,8 +30,8 @@ const VantaComponent = ({ children, style }) => {
     }
     return () => {
       if (effect) effect.destroy();
-    };
-  }, []); // Run only once on mount
+    }
+  }, []); 
 
   return (
     <div ref={vantaRef} style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: -1, ...style }}>
@@ -42,13 +42,12 @@ const VantaComponent = ({ children, style }) => {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.7)', /* Adjust opacity here */
-          zIndex: 0, /* On top of Vanta.js, but behind other content */
+          backgroundColor: 'rgba(0, 0, 0, 0.75)',
         }}
       ></div>
       {children}
     </div>
   );
-};
+}
 
 export default VantaComponent;

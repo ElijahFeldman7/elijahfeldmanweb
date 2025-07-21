@@ -14,9 +14,9 @@ function Home() {
             </div>
           </div>
           <div className="ml-8">
-            <div style={{ width: '8rem', height: '8rem', borderRadius: '50%', overflow: 'hidden' }}>
-              <img src="/glacier.jpg" alt="Elijah Feldman" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '20% 50%' }} />
-            </div>
+            <div className="ml-8 w-32 h-32 rounded-full overflow-hidden">
+            <img src="/glacier.jpg" alt="Elijah Feldman" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '20% 50%' }} />
+          </div>
           </div>
         </div>
 

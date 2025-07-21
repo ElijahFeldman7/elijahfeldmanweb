@@ -21,8 +21,8 @@ function AppContent() {
   const isHomePage = location.pathname === '/';
 
   return (
-    <div>
-      <VantaComponent style={{ top: isHomePage ? '0px' : '70px' }} />
+    <div style={{ backgroundColor: isHomePage ? 'transparent' : 'black' }}>
+      {isHomePage && <VantaComponent />}
       <ProgressBar />
       {!isHomePage && <NavBar />}
       <div style={{ position: 'relative', zIndex: 1, paddingTop: isHomePage ? '0px' : '70px', width: '100%', boxSizing: 'border-box' }}>

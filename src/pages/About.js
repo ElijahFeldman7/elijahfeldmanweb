@@ -65,41 +65,31 @@ function About() {
           </div>
         </div>
 
-        <p className="mt-6 text-white leading-relaxed">
-          Hi! I go by Eli. I'm currently a sophomore studying at <a href="https://www.tjhsst.fcps.edu" className="hover:underline underline">TJ</a>, passionate about computer science, fascinated by <span className="italic">algorithms, computation, and information</span>.
-        </p>
-
-        <p className="mt-6 text-white leading-relaxed">
-          I want to work on <span className="italic">solving problems</span>, those that impact human understanding and intelligence.
-        </p>
-
-        <p className="mt-6 text-white leading-relaxed">
-          Most recently, that's meant exploring neural optimization, deep learning, and some <span className="italic">Biology</span>.
-        </p>
-        <figure className="mt-4 w-80">
-          <img src="/glacier.jpg" alt="Elijah Feldman" className="fade-in" style={{ marginTop: '0.5rem' }} />
-          <figcaption className="mt-2 text-center">
-            <span className="block text-white text-sm italic">Glacier National Park, Montana</span>
-          </figcaption>
-        </figure>
-        <p className="mt-6 text-white leading-relaxed">
-          I'm currently working on a few projects, including:
-          <ul className="list-disc list-inside mt-2">
-            <li className="mt-2"><span className="italic">IAadamW</span> - an optimizer for deep learning</li>
-            <li className="mt-2"><span className="italic">BioBlitz</span> - making Bio competitive and fun</li>
-            <li className="mt-2"><span className="italic">Entity recognition</span> - interning at <a href="https://gmu.edu" className="underline">GMU</a></li>
-          </ul>
-        </p>
-        <figure className="mt-4">
-          <img src="/yosemeti.jpg" alt="Elijah Feldman" className="fade-in" style={{ marginTop: '0.5rem' }} />
-          <figcaption className="mt-2 text-center">
-            <span className="block text-white font-medium italic">"The Mountains Are Calling and I Must Go"</span> <span className="text-white">- John Muir</span>
-            <span className="block text-white text-sm italic">Yosemite National Park, California</span>
-          </figcaption>
-        </figure>
-        <p className="mt-6 text-white leading-relaxed">
-          I'm working at my school as a <a href="https://sysadmins.tjhsst.edu">sysadmin</a>. I'm always looking for new challenges and opportunities to grow.
-        </p>
+        <div className="flex mt-6 items-start">
+          <div className="flex-1">
+            <p className="text-white semi-bold text-xl leading-relaxed">
+              Hi! I go by Eli. I'm currently a sophomore studying at <a href="https://www.tjhsst.fcps.edu" className="hover:underline" style={{ color: '#1a85ff' }}>TJ</a>, passionate about computer science, fascinated by <span className="italic">algorithms, computation, and information</span>.
+              I want to work on <span className="italic">solving problems</span>, those that impact human understanding and intelligence.
+              Most recently, that's meant exploring neural optimization, deep learning, and some <span className="italic">Biology</span>.
+              <br />
+              <br />
+              I'm currently working on a few projects, including <span className="italic">BioBlitz</span>, making Biology competitive and fun, IAadamW, an optimizer for transformers, and entity recognition at <a href="https://gmu.edu" style={{ color: '#1a85ff' }} className="hover:underline">GMU</a>.
+            </p>
+          </div>
+          <figure className="w-80 ml-4 flex-shrink-0">
+            <img src="/glacier.jpg" alt="Elijah Feldman" className="fade-in rounded-md" />
+            <figcaption className="mt-2 text-center text-white text-sm italic">Glacier National Park, Montana</figcaption>
+          </figure>
+        </div>
+        <div className="flex mt-4">
+        </div>
+        <div className="flex mt-6">
+          <div className="flex-1">
+            <p className="text-white semi-bold text-xl leading-relaxed">
+              I'm working at my school as a <a href="https://sysadmins.tjhsst.edu" style={{ color: '#1a85ff' }} className = "hover:underline">sysadmin</a>. I'm always looking for new challenges and opportunities to grow. I use Ubuntu on my laptop.
+            </p>
+          </div>
+        </div>
       </main>
 
       <footer className="text-center text-neutral-500 text-sm p-6 flex flex-col items-center space-y-2">
