@@ -32,10 +32,6 @@ function About() {
               <span className="italic">aspiring <span className="text-white italic">developer.</span></span>
             </div>
           </div>
-          <div className="ml-8 flex flex-col items-end space-y-2">
-            <Link to="/projects" className="text-white hover:underline font-medium">Projects</Link>
-            <Link to="/contact" className="text-white hover:underline font-medium">Contact Me</Link>
-          </div>
         </div>
 
         <p className="mt-6 text-white leading-relaxed">
