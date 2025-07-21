@@ -76,10 +76,9 @@ function About() {
         <p className="mt-6 text-white leading-relaxed">
           Most recently, that's meant exploring neural optimization, deep learning, and some <span className="italic">Biology</span>.
         </p>
-        <figure className="mt-4">
+        <figure className="mt-4 w-80">
           <img src="/glacier.jpg" alt="Elijah Feldman" className="fade-in" style={{ marginTop: '0.5rem' }} />
           <figcaption className="mt-2 text-center">
-            <span className="block text-white font-medium italic">In quiet places, we find space to reflect and grow.</span>
             <span className="block text-white text-sm italic">Glacier National Park, Montana</span>
           </figcaption>
         </figure>

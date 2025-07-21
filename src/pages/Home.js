@@ -34,10 +34,10 @@ function Home() {
 
           <div>
             <p className="text-white leading-relaxed">
-              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <a href = "/projects/#BioBlitz" className ="underline">BioBlitz </a>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="gmu.edu" className="underline">GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
+              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <a href = "/projects/#BioBlitz" className ="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </a>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="gmu.edu" className="underline">GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
             <br />
             <br />
-              I volunteer at <a href="mitosisphere.org" className = "underline">Mitosisphere</a>, a platform that makes Biology questions.
+              I volunteer at <a href="mitosisphere.org" className = "hover:underline" style={{ color: '#1a85ff' }}>Mitosisphere</a>, a platform that makes Biology questions.
             <br />
             <br />
               I'm especially interested in deep learning research and transformer architectures. I have been working on transformer optimization methods.

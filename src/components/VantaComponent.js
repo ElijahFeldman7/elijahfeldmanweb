@@ -42,7 +42,7 @@ const VantaComponent = ({ children, style }) => {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.4)', /* Adjust opacity here */
+          backgroundColor: 'rgba(0, 0, 0, 0.7)', /* Adjust opacity here */
           zIndex: 0, /* On top of Vanta.js, but behind other content */
         }}
       ></div>
