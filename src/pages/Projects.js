@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="max-w-6xl mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
             <h1 className="text-5xl font-bold flex items-center flex-wrap">
