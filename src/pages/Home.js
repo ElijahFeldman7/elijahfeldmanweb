@@ -34,10 +34,10 @@ function Home() {
 
           <div>
             <p className="text-white leading-relaxed">
-              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <a href = "/projects/#BioBlitz" className ="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </a>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="gmu.edu" className="underline">GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
+              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <a href = "/projects/#BioBlitz" className ="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </a>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="https://gmu.edu" className="hover:underline" style={{ color: '#1a85ff' }}>GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
             <br />
             <br />
-              I volunteer at <a href="mitosisphere.org" className = "hover:underline" style={{ color: '#1a85ff' }}>Mitosisphere</a>, a platform that makes Biology questions.
+              I volunteer at <a href="https://mitosisphere.org" className = "hover:underline" style={{ color: '#1a85ff' }}>Mitosisphere</a>, a platform that makes Biology questions.
             <br />
             <br />
               I'm especially interested in deep learning research and transformer architectures. I have been working on transformer optimization methods.
@@ -51,16 +51,12 @@ function Home() {
         <footer className="text-center text-neutral-500 text-sm p-6 flex flex-col items-center space-y-2">
           <div className="flex items-center justify-center space-x-3">
             <a href="https://github.com/ElijahFeldman7" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <svg className="inline-block w-6 h-6 text-white hover:text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.606-2.665-.304-5.466-1.332-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 013.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.804 5.625-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 21.796 24 17.297 24 12c0-6.63-5.37-12-12-12z" />
-              </svg>
+              github
             </a>
-            <a href="https://www.linkedin.com/in/elijah-feldman-a5764024a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <svg className="inline-block w-6 h-6 text-white hover:text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-              </svg>
+            <a href="https://www.linkedin.com/in/elijah-feldman-48798330b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              linkedin
             </a>
-            <a href="mailto:2028efeldman@tjhsst.edu" className="hover:underline text-white font-medium">2028efeldman@tjhsst.edu</a>
+            <a href="mailto:2028efeldman@tjhsst.edu" className="hover:underline text-white font-medium">email</a>
           </div>
         </footer>
       </main>
