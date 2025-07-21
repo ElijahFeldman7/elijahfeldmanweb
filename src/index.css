@@ -26,5 +26,18 @@ code {
 }
 
 ::selection {
-  background: #0a6bdb;
+  background: #87CEFA;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.blinking-dot {
+  animation: blink 1s infinite;
+}
+
+.blinking-cursor {
+  animation: blink 0.75s step-end infinite;
 }
