@@ -8,10 +8,8 @@ function Contact() {
       <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
-            <h1 className="text-2xl font-bold flex items-center">
-              <Link to="/">Elijah Feldman</Link>
-              <span className="text-lg mx-3 text-neutral-400 hidden sm:inline">—</span>
-              <span className="hidden sm:inline">Contact</span><span className="text-5xl" style={{ color: '#1a85ff' }}>.</span>
+            <h1 className="text-5xl font-bold flex items-center">
+              <span className="hidden sm:inline">Contact</span><span className="text-6xl" style={{ color: '#1a85ff' }}>.</span>
             </h1>
           </div>
         </div>
