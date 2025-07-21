@@ -11,7 +11,7 @@ function Contact() {
             <h1 className="text-2xl font-bold flex items-center">
               <Link to="/">Elijah Feldman</Link>
               <span className="text-lg mx-3 text-neutral-400 hidden sm:inline">—</span>
-              <span className="hidden sm:inline">Contact</span><span className="text-5xl" style={{ color: '#195cfa' }}>.</span>
+              <span className="hidden sm:inline">Contact</span><span className="text-5xl" style={{ color: '#1a85ff' }}>.</span>
             </h1>
           </div>
         </div>

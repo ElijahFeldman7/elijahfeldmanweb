@@ -8,7 +8,7 @@ function About() {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const toRotate = ["researcher", "learner", "aspiring developer"];
+  const toRotate = [" researcher.", " learner.", "n aspiring developer."];
 
   useEffect(() => {
     const handleTyping = () => {
@@ -58,9 +58,9 @@ function About() {
       <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
-            <h1 className="text-5xl font-bold"><Link to="/">Elijah Feldman</Link><span style={{ color: '#195cfa' }}>.</span></h1>
+            <h1 className="text-5xl font-bold"><Link to="/">Elijah Feldman</Link><span style={{ color: '#1a85ff' }}>.</span></h1>
             <div className="text-white text-lg mt-1">
-              <span className="italic">is a <span style={{ color: '#195cfa' }}>{typedText}</span><span className="blinking-cursor">|</span></span>
+              <span className="semi-bold text-4xl">I'm a<span style={{ color: '#1a85ff' }}>{typedText}</span></span>
             </div>
           </div>
         </div>
