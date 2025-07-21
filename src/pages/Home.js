@@ -34,8 +34,12 @@ function Home() {
 
           <div>
             <p className="text-white leading-relaxed">
-              Elijah Feldman is a passionate and driven individual with a strong interest in computer science and technology. He is a quick learner and is always looking for new challenges. He is a great team player and is always willing to help others. He is a great asset to any team and is sure to be a valuable contributor to any project.
+              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <a href = "/projects/#BioBlitz" className ="underline">BioBlitz </a>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="gmu.edu" className="underline">GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
+            <br />
+            <br />
+              I volunteer at <a href="mitosisphere.org" className = "underline">Mitosisphere</a>, a platform that makes Biology questions.
             </p>
+
           </div>
         </div>
 
