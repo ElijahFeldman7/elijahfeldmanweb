@@ -38,6 +38,9 @@ function Home() {
             <br />
             <br />
               I volunteer at <a href="mitosisphere.org" className = "underline">Mitosisphere</a>, a platform that makes Biology questions.
+            <br />
+            <br />
+              I'm especially interested in deep learning research and transformer architectures. I have been working on transformer optimization methods.
             </p>
 
           </div>
