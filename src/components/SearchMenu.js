@@ -28,24 +28,24 @@ const SearchMenu = ({ isOpen, setIsOpen }) => {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.5)', /* Light coating / transparent overlay */
-          zIndex: 1999, /* Behind the search menu */
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+          zIndex: 1999, 
         }}
-        onClick={() => setIsOpen(false)} /* Close on overlay click */
+        onClick={() => setIsOpen(false)} 
       ></div>
       <div
         style={{
           position: 'fixed',
-          top: '50%', /* Center vertically */
-          left: '50%', /* Center horizontally */
-          transform: 'translate(-50%, -50%)', /* Perfect centering */
-          backgroundColor: 'rgba(0, 0, 0, 0.9)', /* Slightly darker for the menu itself */
-          padding: '2rem', /* Increased padding */
-          borderRadius: '0.75rem', /* Slightly larger border radius */
+          top: '50%', 
+          left: '50%', 
+          transform: 'translate(-50%, -50%)', 
+          backgroundColor: 'rgba(0, 0, 0, 0.9)', 
+          padding: '2rem', 
+          borderRadius: '0.75rem', 
           zIndex: 2000,
-          width: '90%', /* Wider */
-          maxWidth: '600px', /* Larger max width */
-          boxShadow: '0 0 20px rgba(0, 0, 0, 0.5)', /* Add some shadow */
+          width: '90%', 
+          maxWidth: '600px', 
+          boxShadow: '0 0 20px rgba(0, 0, 0, 0.5)',
         }}
       >
         <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
@@ -56,13 +56,13 @@ const SearchMenu = ({ isOpen, setIsOpen }) => {
             onChange={(e) => setSearchTerm(e.target.value)}
             style={{
               width: '100%',
-              padding: '1rem 1rem 1rem 3rem', /* Increased padding, left padding for icon */
+              padding: '1rem 1rem 1rem 3rem',
               marginBottom: '1rem',
-              borderRadius: '0.5rem', /* Larger border radius */
+              borderRadius: '0.5rem', 
               border: 'none',
-              fontSize: '1.2rem', /* Bigger font size */
-              backgroundColor: '#333', /* Darker input background */
-              color: 'white', /* White text */
+              fontSize: '1.2rem',
+              backgroundColor: '#333',
+              color: 'white',
             }}
           />
           <svg
@@ -72,7 +72,7 @@ const SearchMenu = ({ isOpen, setIsOpen }) => {
             style={{
               position: 'absolute',
               left: '1rem',
-              color: '#bbb', /* Icon color */
+              color: '#bbb',
               width: '1.5rem',
               height: '1.5rem',
             }}
