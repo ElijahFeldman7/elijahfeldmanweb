@@ -58,7 +58,7 @@ function About() {
       <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
-            <h1 className="text-5xl font-bold"><Link to="/">Elijah Feldman</Link><span style={{ color: '#1a85ff' }}>.</span></h1>
+            <h1 className="text-6xl font-bold"><Link to="/">Elijah Feldman</Link><span style={{ color: '#1a85ff' }}>.</span></h1>
             <div className="text-white text-lg mt-1">
               <span className="semi-bold text-4xl">I'm a<span style={{ color: '#1a85ff' }}>{typedText}</span></span>
             </div>
@@ -70,7 +70,7 @@ function About() {
         </p>
 
         <p className="mt-6 text-white leading-relaxed">
-          I want to work on <span className="italic">fundamental problems</span>, those that impact human understanding and intelligence.
+          I want to work on <span className="italic">solving problems</span>, those that impact human understanding and intelligence.
         </p>
 
         <p className="mt-6 text-white leading-relaxed">
