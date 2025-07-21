@@ -5,18 +5,12 @@ import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="max-w-2xl mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
-            <h1 className="text-2xl font-bold flex items-center flex-wrap">
-              <Link to="/" >Elijah Feldman</Link>
-              <span className="text-lg mx-2 text-white hidden sm:inline">—</span>
+            <h1 className="text-5xl font-bold flex items-center flex-wrap">
               <span className="hidden sm:inline">Projects</span>
             </h1>
-          </div>
-          <div className="ml-4 sm:ml-8 flex flex-col items-end space-y-2">
-            <Link to="/projects" className="text-white hover:underline font-medium text-sm">Projects</Link>
-            <Link to="/contact" className="text-white hover:underline font-medium text-sm">Contact Me</Link>
           </div>
         </div>
 

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Contact() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="max-w-2xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
             <h1 className="text-2xl font-bold flex items-center">
@@ -13,10 +13,6 @@ function Contact() {
               <span className="text-lg mx-3 text-neutral-400 hidden sm:inline">—</span>
               <span className="hidden sm:inline">Contact</span>
             </h1>
-          </div>
-          <div className="ml-8 flex flex-col items-end space-y-2">
-            <Link to="/projects" className="text-white hover:underline font-medium text-sm">Projects</Link>
-            <Link to="/contact" className="text-white hover:underline font-medium text-sm">Contact Me</Link>
           </div>
         </div>
 

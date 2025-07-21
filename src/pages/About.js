@@ -23,7 +23,7 @@ function About() {
 
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="max-w-2xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
             <h1 className="text-2xl font-bold"><Link to="/">Elijah Feldman</Link></h1>
