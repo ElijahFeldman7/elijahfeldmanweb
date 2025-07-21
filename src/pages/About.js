@@ -26,7 +26,7 @@ function About() {
       <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
-            <h1 className="text-5xl font-bold"><Link to="/">Elijah Feldman</Link></h1>
+            <h1 className="text-5xl font-bold"><Link to="/">Elijah Feldman</Link><span className="text-6xl" style={{ color: '#195cfa' }}>.</span></h1>
             <div className="text-white text-lg mt-1">
               <span className="italic">is a <span className="text-white">learner</span>, <span className="text-white">researcher</span>, and</span><br />
               <span className="italic">aspiring <span className="text-white italic">developer.</span></span>

@@ -22,10 +22,10 @@ function AppContent() {
 
   return (
     <div>
-      <VantaComponent style={{ top: '60px' }} />
+      <VantaComponent style={{ top: isHomePage ? '0px' : '70px' }} />
       <ProgressBar />
-      <div style={{ position: 'relative', zIndex: 1, paddingTop: '70px', width: '100%', boxSizing: 'border-box' }}>
-        {!isHomePage && <NavBar />}
+      {!isHomePage && <NavBar />}
+      <div style={{ position: 'relative', zIndex: 1, paddingTop: isHomePage ? '0px' : '70px', width: '100%', boxSizing: 'border-box' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

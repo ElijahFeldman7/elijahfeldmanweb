@@ -9,7 +9,7 @@ function Projects() {
         <div className="mt-8 flex items-start justify-between">
           <div>
             <h1 className="text-5xl font-bold flex items-center flex-wrap">
-              <span className="hidden sm:inline">Projects</span>
+              <span className="hidden sm:inline">Projects </span><span className="text-5xl" style={{ color: '#195cfa' }}>.</span>
             </h1>
           </div>
         </div>

@@ -68,9 +68,9 @@ const NavBar = () => {
       color: 'white',
     }}>
       {/* Current Page Indicator */}
-      <div style={{ fontSize: '1.2em', fontWeight: 'bold' }}>
+      <Link to="/" style={{ fontSize: '1.2em', fontWeight: 'bold', color: 'white', textDecoration: 'none' }}>
         ef/{currentPage}{showCursor && <span style={{ animation: 'blink-caret .75s step-end infinite' }}>|</span>}
-      </div>
+      </Link>
 
       {/* Right-aligned Icons and Main Navigation Links */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
