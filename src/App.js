@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import VantaComponent from './components/VantaComponent';
 import ProgressBar from './components/ProgressBar';
 import NavBar from './components/NavBar';
-
+import Footer from './components/Footer';
 function App() {
   return (
     <Router>
