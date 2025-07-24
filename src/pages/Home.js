@@ -50,13 +50,13 @@ function Home() {
 
         <footer className="text-center text-neutral-500 text-sm p-6 flex flex-col items-center space-y-2">
           <div className="flex items-center justify-center space-x-3">
-            <a href="https://github.com/ElijahFeldman7" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/ElijahFeldman7" target="_blank" className = "hover:underline" rel="noopener noreferrer" aria-label="GitHub">
               github
             </a>
-            <a href="https://www.linkedin.com/in/elijah-feldman-48798330b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/elijah-feldman-48798330b" target="_blank" className = "hover:underline" rel="noopener noreferrer" aria-label="LinkedIn">
               linkedin
             </a>
-            <a href="mailto:2028efeldman@tjhsst.edu" className="hover:underline text-white font-medium">email</a>
+            <a href="mailto:2028efeldman@tjhsst.edu" className="hover:underline text-white">email</a>
           </div>
         </footer>
       </main>
