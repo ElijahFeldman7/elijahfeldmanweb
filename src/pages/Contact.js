@@ -16,8 +16,12 @@ function Contact() {
 
         <div className="mt-6 px-20">
           <div style={{marginBottom: '1rem'}}>
+            <a href="mailto:eli@elijahfeldman.me" className="text-base text-4xl text-white hover:underline hover:text-gray-400">eli <span className="text-gray-500">[@]</span> elijahfeldman.me</a>
+            <p className="text-medium text-gray-300">The main way to reach me! Email forwarding is on.</p>
+          </div>
+          <div style={{marginBottom: '1rem'}}>
             <a href="mailto:2028efeldman@tjhsst.edu" className="text-base text-4xl text-white hover:underline hover:text-gray-400">2028efeldman <span className="text-gray-500">[@]</span> tjhsst.edu</a>
-            <p className="text-medium text-gray-300">This is the best way to reach me! Email forwarding is on.</p>
+            <p className="text-medium text-gray-300">For school related inquiries! Email forwarding is on.</p>
           </div>
           <div style={{marginBottom: '1rem'}}>
             <a href="mailto:efeldma5@gmu.edu" className="text-base text-4xl text-white hover:underline hover:text-gray-400">efeldma5 <span className="text-gray-500">[@]</span> gmu.edu</a>
