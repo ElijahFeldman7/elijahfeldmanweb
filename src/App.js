@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Blog from './pages/Blog';
 import VantaComponent from './components/VantaComponent';
 import ProgressBar from './components/ProgressBar';
 import NavBar from './components/NavBar';
@@ -50,6 +51,7 @@ function AppContent() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
       {!isHomePage && <Footer />}

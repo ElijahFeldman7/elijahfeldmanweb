@@ -47,6 +47,7 @@ const NavBar = () => {
     { name: 'Home', path: '/', icon: '🏠' },
     { name: 'About', path: '/about', icon: 'ℹ️' },
     { name: 'Projects', path: '/projects', icon: '💻' },
+    { name: 'Blog', path: '/blog', icon: '✍️' },
     { name: 'Contact Me', path: '/contact', icon: '✉️' },
   ];
 
