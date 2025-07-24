@@ -17,7 +17,7 @@ const Footer = () => {
       backgroundColor: 'rgba(0, 0, 0, 0.7)',
       color: 'white',
       textAlign: 'center',
-      marginTop: 'auto', // Pushes footer to the bottom
+      marginTop: 'auto',
     }}>
       <hr style={{ borderTop: '1px solid rgba(255, 255, 255, 0.2)', marginBottom: '20px' }} />
 
