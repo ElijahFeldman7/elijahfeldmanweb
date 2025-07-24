@@ -1,0 +1,43 @@
+
+[
+  {
+    "uid": "2024-07-21-transformers",
+    "title": "The Rise of Transformers",
+    "date": "2024-07-21",
+    "topic": "AI",
+    "image": "/blog/transformer.png",
+    "info": "A deep dive into the architecture that revolutionized natural language processing and beyond."
+  },
+  {
+    "uid": "2024-07-15-system-administration",
+    "title": "My Journey as a Sysadmin",
+    "date": "2024-07-15",
+    "topic": "Tech",
+    "image": "/blog/sysadmin.png",
+    "info": "Tales from the trenches: managing servers, networks, and the occasional user-induced catastrophe."
+  },
+  {
+    "uid": "2024-07-10-bioblitz-launch",
+    "title": "BioBlitz: Gamifying Biology",
+    "date": "2024-07-10",
+    "topic": "Projects",
+    "image": "/bioblitz.png",
+    "info": "Announcing BioBlitz, a new platform to make learning biology competitive and fun."
+  },
+  {
+    "uid": "2024-06-28-neural-optimization",
+    "title": "Optimizing Neural Networks",
+    "date": "2024-06-28",
+    "topic": "AI",
+    "image": "/blog/neural-net.png",
+    "info": "Exploring the latest techniques in neural network optimization, from learning rate schedulers to novel optimizers."
+  },
+  {
+    "uid": "2024-06-15-react-hooks",
+    "title": "Mastering React Hooks",
+    "date": "2024-06-15",
+    "topic": "Web Dev",
+    "image": "/blog/react-hooks.png",
+    "info": "A guide to understanding and effectively using React Hooks for cleaner and more maintainable code."
+  }
+]

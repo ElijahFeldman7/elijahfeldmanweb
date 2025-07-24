@@ -5,6 +5,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
+import CreatePost from './pages/CreatePost';
 import VantaComponent from './components/VantaComponent';
 import ProgressBar from './components/ProgressBar';
 import NavBar from './components/NavBar';
@@ -52,6 +54,8 @@ function AppContent() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:uid" element={<BlogPost />} />
+          <Route path="/create-post-hidden" element={<CreatePost />} />
         </Routes>
       </div>
       {!isHomePage && <Footer />}

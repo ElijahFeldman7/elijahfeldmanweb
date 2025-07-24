@@ -27,6 +27,8 @@ function Home() {
             <Link to="/about" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">ABOUT</Link>
             <Link to="/projects" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">PROJECTS</Link>
             <Link to="/contact" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">CONTACT</Link>
+            <Link to="/blog" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">BLOG</Link>
+
             <div className="text-gray-400 text-xs">
               <span className="text-black bg-white rounded-full px-2 py-1 mt-4">⌘K</span>  for menu
             </div>
