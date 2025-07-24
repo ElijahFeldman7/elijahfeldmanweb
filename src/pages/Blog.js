@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import blogPosts from '../blog-posts.json';
+import blogPosts from '../blog-posts.js';
 
 function Blog() {
   const [searchTerm, setSearchTerm] = useState('');
