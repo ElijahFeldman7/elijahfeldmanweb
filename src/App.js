@@ -52,6 +52,7 @@ function AppContent() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
+      {!isHomePage && <Footer />}
     </div>
   );
 }
