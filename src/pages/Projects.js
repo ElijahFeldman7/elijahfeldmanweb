@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="max-w-6xl mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
             <h1 className="text-5xl font-bold flex items-center flex-wrap">
@@ -42,7 +42,7 @@ function Projects() {
               </div>
             </div>
             <div className="md:col-span-1 mt-4 md:mt-0">
-              <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full max-w-xs md:max-w-full" width="600" height="400" />
+              <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full md:max-w-full" width="600" height="400" />
             </div>
           </div>
 
@@ -65,8 +65,8 @@ function Projects() {
               </div>
             </div>
             <div className="md:col-span-1 mt-4 md:mt-0 flex flex-col gap-4">
-              <img src="/to-do.png" alt="Workflow To-Do Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full max-w-xs md:max-w-full" width="600" height="400" />
-              <img src="/workflow.png" alt="Workflow Main Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full max-w-xs md:max-w-full" width="600" height="400" />
+              <img src="/to-do.png" alt="Workflow To-Do Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full md:max-w-full" width="600" height="400" />
+              <img src="/workflow.png" alt="Workflow Main Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full md:max-w-full" width="600" height="400" />
             </div>
           </div>
         </div>
