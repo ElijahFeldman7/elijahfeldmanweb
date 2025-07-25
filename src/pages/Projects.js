@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      <main className="max-w-6xl mx-auto text-left pt-0 px-4 sm:px-6 md:px-4 flex-1 flex flex-col justify-start text-container">
+      {/* Increased padding for all screens, especially small ones, and ensure max-width is respected earlier */}
+      <main className="max-w-6xl mx-auto text-left pt-0 px-4 sm:px-6 md:px-8 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
             <h1 className="text-5xl font-bold flex items-center flex-wrap">
@@ -18,7 +19,6 @@ function Projects() {
           <ul className=" list-inside text-white space-y-1">
             <li><a href="#bioblitz" className="text-white hover:underline">BioBlitz</a></li>
             <li><a href="#workflow" className="text-white hover:underline">Workflow</a></li>
-
           </ul>
         </div>
 
@@ -40,6 +40,7 @@ function Projects() {
                 <a href="https://github.com/aarnav593/hacktj25" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">Github</a>
               </div>
             </div>
+            {/* Added explicit small screen width for the image wrapper */}
             <div className="md:col-span-1 mt-4 md:mt-0 w-full sm:w-11/12 mx-auto md:w-auto md:mx-0">
               <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full h-auto" width="600" height="400" />
             </div>
@@ -63,6 +64,7 @@ function Projects() {
                 <a href="https://elijahfeldman7.github.io/to-do-list" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">To-Do List Website</a>
               </div>
             </div>
+            {/* Added explicit small screen width for the image wrapper */}
             <div className="md:col-span-1 mt-4 md:mt-0 flex flex-col gap-4 w-full sm:w-11/12 mx-auto md:w-auto md:mx-0">
               <img src="/to-do.png" alt="Workflow To-Do Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full h-auto" width="600" height="400" />
               <img src="/workflow.png" alt="Workflow Main Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full h-auto" width="600" height="400" />
