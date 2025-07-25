@@ -14,7 +14,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="mt-6 px-4 sm:px-20">
+        <div className="mt-6 px-4">
           <div style={{marginBottom: '1rem'}}>
             <a href="mailto:eli@elijahfeldman.me" className="text-base text-4xl text-white hover:underline hover:text-gray-400">eli <span className="text-gray-500">[@]</span> elijahfeldman.me</a>
             <p className="text-medium text-gray-300">The main way to reach me! Email forwarding is on.</p>
