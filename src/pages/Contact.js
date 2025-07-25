@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function Contact() {
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
-        <div className="mt-8 px-4 flex items-start justify-between">
+      <main className="max-w-6xl text-left pt-0 pl-32 pr-4 flex-1 flex flex-col justify-start text-container">
+        <div className="mt-8 px-20 flex items-start justify-between">
           <div>
             <h1 className="text-6xl font-semibold flex text-left">
               <span className="left">Emails</span>
@@ -14,7 +14,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="mt-6 px-4">
+        <div className="mt-6 px-20">
           <div style={{marginBottom: '1rem'}}>
             <a href="mailto:eli@elijahfeldman.me" className="text-base text-4xl text-white hover:underline hover:text-gray-400">eli <span className="text-gray-500">[@]</span> elijahfeldman.me</a>
             <p className="text-medium text-gray-300">The main way to reach me! Email forwarding is on.</p>
