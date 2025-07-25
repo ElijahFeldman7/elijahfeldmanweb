@@ -41,9 +41,11 @@ function Blog() {
           </select>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Change made here: Added 'sm:grid-cols-1' to ensure a single column on small screens */}
+        {/* Also adjusted the width of the card for mobile with 'sm:w-11/12' and 'mx-auto' for centering */}
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map(post => (
-            <Link to={`/blog/${post.uid}`} key={post.uid} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full">
+            <Link to={`/blog/${post.uid}`} key={post.uid} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full sm:w-11/12 mx-auto">
               <img src={post.image} alt={post.title} className="w-full h-48 object-cover"/>
               <div className="p-6">
                 <h2 className="text-2xl font-bold mb-2">{post.title}</h2>

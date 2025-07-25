@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -42,7 +41,8 @@ function Projects() {
               </div>
             </div>
             <div className="md:col-span-1 mt-4 md:mt-0">
-              <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full md:max-w-full" width="600" height="400" />
+              {/* CHANGE MADE HERE for BioBlitz image */}
+              <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full sm:w-11/12 mx-auto md:max-w-full" width="600" height="400" />
             </div>
           </div>
 
@@ -65,8 +65,9 @@ function Projects() {
               </div>
             </div>
             <div className="md:col-span-1 mt-4 md:mt-0 flex flex-col gap-4">
-              <img src="/to-do.png" alt="Workflow To-Do Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full md:max-w-full" width="600" height="400" />
-              <img src="/workflow.png" alt="Workflow Main Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full md:max-w-full" width="600" height="400" />
+              {/* CHANGE MADE HERE for Workflow images */}
+              <img src="/to-do.png" alt="Workflow To-Do Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full sm:w-11/12 mx-auto md:max-w-full" width="600" height="400" />
+              <img src="/workflow.png" alt="Workflow Main Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full sm:w-11/12 mx-auto md:max-w-full" width="600" height="400" />
             </div>
           </div>
         </div>
