@@ -17,7 +17,7 @@ function Blog() {
 
   return (
     <div className="min-h-screen flex flex-col justify-center text-white">
-      <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
+      <main className="max-w-6xl mx-auto text-left pt-0 px-2 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8">
           <h1 className="text-6xl font-bold">Blog<span style={{ color: '#1a85ff' }}>.</span></h1>
         </div>

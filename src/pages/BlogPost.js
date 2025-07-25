@@ -27,7 +27,7 @@ function BlogPost() {
           <h1 className="text-5xl font-bold">{post.title}<span style={{ color: '#1a85ff' }}>.</span></h1>
           <p className="text-gray-400 text-lg mt-2">{post.date} - {post.topic}</p>
         </div>
-        <img src={post.image} alt={post.title} className="w-full h-96 object-cover my-8 rounded-lg"/>
+        <img src={post.image} alt={post.title} className="w-full h-48 md:h-96 object-cover my-8 rounded-lg"/>
         <div className="text-xl leading-relaxed" dangerouslySetInnerHTML={{ __html: postContent }} />
       </main>
     </div>
