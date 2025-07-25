@@ -41,11 +41,9 @@ function Blog() {
           </select>
         </div>
 
-        {/* Reverted the grid container to original PC settings, but ensuring single column on mobile */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map(post => (
             <Link to={`/blog/${post.uid}`} key={post.uid}
-                  // *** CRUCIAL CHANGE HERE: Apply mobile-specific width and centering only ***
                   className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300
                              w-full sm:w-11/12 md:w-full mx-auto md:mx-0">
               <img src={post.image} alt={post.title} className="w-full h-48 object-cover"/>
