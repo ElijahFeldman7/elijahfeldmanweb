@@ -17,23 +17,23 @@ function Blog() {
 
   return (
     <div className="min-h-screen flex flex-col justify-center text-white">
-      <main className="max-w-6xl mx-auto text-left pt-0 px-2 flex-1 flex flex-col justify-start text-container">
+      <main className="max-w-6xl mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8">
           <h1 className="text-6xl font-bold">Blog<span style={{ color: '#1a85ff' }}>.</span></h1>
         </div>
 
-        <div className="flex mt-6 mb-4 space-x-4">
+        <div className="flex flex-col sm:flex-row mt-6 mb-4 space-y-4 sm:space-y-0 sm:space-x-4"> {/* Adjusted for stacking on very small screens */}
           <input
             type="text"
             placeholder="Search posts..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="px-4 py-2 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="px-4 py-2 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-auto"
           />
           <select
             value={selectedTopic}
             onChange={(e) => setSelectedTopic(e.target.value)}
-            className="px-4 py-2 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="px-4 py-2 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-auto"
           >
             {topics.map(topic => (
               <option key={topic} value={topic}>{topic}</option>
@@ -41,11 +41,13 @@ function Blog() {
           </select>
         </div>
 
-        {/* Change made here: Added 'sm:grid-cols-1' to ensure a single column on small screens */}
-        {/* Also adjusted the width of the card for mobile with 'sm:w-11/12' and 'mx-auto' for centering */}
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Reverted the grid container to original PC settings, but ensuring single column on mobile */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map(post => (
-            <Link to={`/blog/${post.uid}`} key={post.uid} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full sm:w-11/12 mx-auto">
+            <Link to={`/blog/${post.uid}`} key={post.uid}
+                  // *** CRUCIAL CHANGE HERE: Apply mobile-specific width and centering only ***
+                  className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300
+                             w-full sm:w-11/12 md:w-full mx-auto md:mx-0">
               <img src={post.image} alt={post.title} className="w-full h-48 object-cover"/>
               <div className="p-6">
                 <h2 className="text-2xl font-bold mb-2">{post.title}</h2>
