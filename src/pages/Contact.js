@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="max-w-6xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start text-container">
-        <div className="mt-8 px-4 sm:px-20 flex items-start justify-between">
+        <div className="mt-8 px-4 flex items-start justify-between">
           <div>
             <h1 className="text-6xl font-semibold flex text-left">
               <span className="left">Emails</span>
