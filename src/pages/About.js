@@ -65,7 +65,7 @@ function About() {
           </div>
         </div>
 
-        <div className="flex mt-6 items-start">
+        <div className="flex flex-col md:flex-row mt-6 items-start">
           <div className="flex-1">
             <p className="text-white semi-bold text-xl leading-relaxed">
               Hi! I go by Eli. I'm currently a sophomore studying at <a href="https://www.tjhsst.fcps.edu" className="hover:underline" style={{ color: '#1a85ff' }}>TJ</a>, passionate about computer science, fascinated by <span className="italic">algorithms, computation, and information</span>.
@@ -76,7 +76,7 @@ function About() {
               I'm currently working on a few projects, including <span className="italic">BioBlitz</span>, making Biology competitive and fun, IAadamW, an optimizer for transformers, and entity recognition at <a href="https://gmu.edu" style={{ color: '#1a85ff' }} className="hover:underline">GMU</a>.
             </p>
           </div>
-          <figure className="w-80 ml-4 flex-shrink-0">
+          <figure className="w-full md:w-80 ml-0 md:ml-4 mt-4 md:mt-0 flex-shrink-0">
             <img src="/glacier.jpg" alt="Elijah Feldman" className="fade-in rounded-md" />
             <figcaption className="mt-2 text-center text-white text-sm italic">Glacier National Park, Montana</figcaption>
           </figure>
