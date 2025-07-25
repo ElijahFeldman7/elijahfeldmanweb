@@ -42,8 +42,3 @@ code {
   animation: blink 0.75s step-end infinite;
 }
 
-@media (max-width: 768px) {
-  .main-nav-links {
-    display: none;
-  }
-}
