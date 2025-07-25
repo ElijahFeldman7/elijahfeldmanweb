@@ -76,7 +76,7 @@ const NavBar = () => {
       {/* Right-aligned Icons and Main Navigation Links */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
         {/* Main Navigation Links (for larger screens) */}
-        <div style={{ display: 'flex', gap: '20px' }}>
+        <div className="main-nav-links" style={{ display: 'flex', gap: '20px' }}>
           {pages.map((page) => (
             <Link key={page.name} to={page.path} style={{ color: 'white', textDecoration: 'none', transition: 'color 0.3s ease', '&:hover': { textDecoration: 'underline' } }}>
               {page.name}
