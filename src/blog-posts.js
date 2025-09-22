@@ -10,7 +10,7 @@ const blogPosts = [
   {
     uid: 'freshman-year',
     title: 'My Freshman Year Experience',
-    info: 'Reflections on my first year of high school and the challenges I faced.',
+    info: '',
     image: '/freshman-year.png',
     date: '2025-07-24',
     topic: 'High School'

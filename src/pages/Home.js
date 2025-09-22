@@ -10,7 +10,7 @@ function Home() {
             <h1 className="text-5xl font-serif italic"><Link to="/">Elijah Feldman</Link></h1>
             <div className="text-gray-400 text-xl mt-1">
               <span className="italic">is a <span>learner</span>, <span>researcher</span>, and</span>
-              <span className="italic"> aspiring <span>developer.</span></span>
+              <span className="italic">  <span>developer.</span></span>
             </div>
           </div>
           <div className="ml-8">
@@ -36,7 +36,7 @@ function Home() {
 
           <div>
             <p className="text-white leading-relaxed">
-              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <a href = "/projects/#BioBlitz" className ="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </a>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="https://gmu.edu" className="hover:underline" style={{ color: '#1a85ff' }}>GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
+              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <Link to="/projects#BioBlitz" className="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </Link>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="https://gmu.edu" className="hover:underline" style={{ color: '#1a85ff' }}>GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
             <br />
             <br />
               I volunteer at <a href="https://mitosisphere.org" className = "hover:underline" style={{ color: '#1a85ff' }}>Mitosisphere</a>, a platform that makes Biology questions.

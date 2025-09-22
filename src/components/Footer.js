@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <p className="footer-text-links" style={{ fontSize: '0.9em', margin: '0' }}>
-        <a href="/">Have a good {currentDay}</a> • <Link to="/" className="footer-link">Home</Link> • <Link to="/contact" className="footer-link">Contact</Link>
+        <Link to="/">Have a good {currentDay}</Link> • <Link to="/" className="footer-link">Home</Link> • <Link to="/contact" className="footer-link">Contact</Link>
       </p>
     </footer>
   );

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <div className="min-h-screen flex flex-col justify-center">
-      {/* Increased padding for all screens, especially small ones, and ensure max-width is respected earlier */}
       <main className="max-w-6xl mx-auto text-left pt-0 px-4 sm:px-6 md:px-8 flex-1 flex flex-col justify-start text-container">
         <div className="mt-8 flex items-start justify-between">
           <div>
