@@ -15,7 +15,7 @@ function Home() {
           </div>
           <div className="ml-8">
             <div className="ml-8 w-32 h-32 rounded-full overflow-hidden">
-            <img src="/glacier.jpg" alt="Elijah Feldman" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '20% 50%' }} />
+            <img src="/gallery/IMG_0640.jpg" alt="Elijah Feldman" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '10% 50%' }} />
           </div>
           </div>
         </div>
@@ -28,6 +28,9 @@ function Home() {
             <Link to="/projects" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">PROJECTS</Link>
             <Link to="/contact" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">CONTACT</Link>
             <Link to="/blog" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">BLOG</Link>
+            <Link to="/gallery" className="text-gray-400 hover:underline hover:text-white text-sm mb-4">GALLERY</Link>
+
+
 
             <div className="text-gray-400 text-xs">
               <span className="text-black bg-white rounded-full px-2 py-1 mt-4">⌘K</span>  for menu
@@ -36,13 +39,16 @@ function Home() {
 
           <div>
             <p className="text-white leading-relaxed">
-              Hi! I go by Eli. I like systems and solving large scale problems. I am currently building <Link to="/projects#BioBlitz" className="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </Link>, a platform making preparing for USABO and MCATs as fun as playing a game. I also am working this summer at <a href="https://gmu.edu" className="hover:underline" style={{ color: '#1a85ff' }}>GMU</a>, uncovering human smuggling networks. I'm also running a few fun personal projects, like building Jarvis from IronMan.
+              Hi! I go by Eli. I like systems and solving large scale problems. You'll find me working on some form of Computer Science research.
+              I am currently building <Link to="/https://bioblitz.net" className="hover:underline" style={{ color: '#1a85ff' }}>BioBlitz </Link>, a platform making competitive biology questions easily accessible. 
+              I spent my time last summer at <a href="https://gmu.edu" className="hover:underline" style={{ color: '#1a85ff' }}>GMU</a>, creating graphs out of human smuggling cases. I'm also spend a significant amount of time
+              as a sysadmin at my school, where I am learning how to manage servers.
             <br />
             <br />
-              I volunteer at <a href="https://mitosisphere.org" className = "hover:underline" style={{ color: '#1a85ff' }}>Mitosisphere</a>, a platform that makes Biology questions.
+              I volunteer at <Link to="https://arbccompetition.org" className="hover:underline" style={{ color: '#1a85ff'}}>ARBC</Link> a place thats hosts biology competitions. I am working on the testing software currently.
             <br />
             <br />
-              I'm especially interested in deep learning research and transformer architectures. I have been working on transformer optimization methods.
+              I'm especially interested in safe and faster AI. Right now I'm working on watermarking LLMs and also a better optimizer for transformers. 
             </p>
 
           </div>

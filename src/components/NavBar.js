@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import SearchMenu from './SearchMenu'; // Assuming SearchMenu is in the same directory
+import SearchMenu from './SearchMenu';
 
 const NavBar = () => {
   const location = useLocation();
@@ -8,7 +8,7 @@ const NavBar = () => {
   const [showCursor, setShowCursor] = useState(true);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false); // State for dark/light mode
+  //const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const pathName = location.pathname === '/' ? 'home' : location.pathname.substring(1);
@@ -22,15 +22,14 @@ const NavBar = () => {
     return () => clearInterval(cursorInterval);
   }, []);
 
-  useEffect(() => {
-    // Apply dark/light mode to the body or html element
+  /* useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add('dark-mode');
     } else {
       document.documentElement.classList.remove('dark-mode');
     }
   }, [isDarkMode]);
-
+  */
   const toggleSearch = () => {
     setIsSearchOpen((prev) => !prev);
   };
@@ -38,28 +37,29 @@ const NavBar = () => {
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
   };
-
+  /*
   const toggleDarkMode = () => {
     setIsDarkMode((prev) => !prev);
   };
-
+  */
   const pages = [
     { name: 'Home', path: '/', icon: '🏠' },
     { name: 'About', path: '/about', icon: 'ℹ️' },
     { name: 'Projects', path: '/projects', icon: '💻' },
     { name: 'Blog', path: '/blog', icon: '✍️' },
     { name: 'Contact Me', path: '/contact', icon: '✉️' },
+    { name: 'Gallery', path: '/gallery', icon: '📸'}
   ];
 
   return (
     <nav style={{
       position: 'absolute',
-      top: '20px', // Adjusted to be a little lower
+      top: '20px',
       left: 0,
-      width: '100%', // Span entire page
-      maxWidth: 'none', // Remove max-width constraint
-      padding: '10px 40px', // Adjusted padding for full width, increased left/right padding
-      boxSizing: 'border-box', // Include padding in width
+      width: '100%',
+      maxWidth: 'none',
+      padding: '10px 40px',
+      boxSizing: 'border-box',
       backgroundColor: 'rgba(0, 0, 0, 0.7)',
       borderRadius: '0 0 10px 10px',
       display: 'flex',
@@ -68,14 +68,11 @@ const NavBar = () => {
       zIndex: 1000,
       color: 'white',
     }}>
-      {/* Current Page Indicator */}
       <Link to="/" style={{ fontSize: '1.2em', fontWeight: 'bold', color: 'white', textDecoration: 'none' }}>
         ef/{currentPage}{showCursor && <span style={{ animation: 'blink-caret .75s step-end infinite' }}>|</span>}
       </Link>
 
-      {/* Right-aligned Icons and Main Navigation Links */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-        {/* Main Navigation Links (for larger screens) */}
         <div className="hidden md:flex" style={{ gap: '20px' }}>
           {pages.map((page) => (
             <Link key={page.name} to={page.path} style={{ color: 'white', textDecoration: 'none', transition: 'color 0.3s ease', '&:hover': { textDecoration: 'underline' } }}>
@@ -84,56 +81,47 @@ const NavBar = () => {
           ))}
         </div>
 
-        {/* Right-aligned Icons */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          {/* Search Icon */}
           <button onClick={toggleSearch} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '1.2em' }}>
             ⌘
           </button>
+          
 
-          {/* Dark/Light Mode Toggle */}
-          <button onClick={toggleDarkMode} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '1.2em', transition: 'transform 0.3s ease' }}>
-            {isDarkMode ? '☀️' : '🌙'}
-          </button>
-
-          {/* Hamburger Menu (for smaller screens or sidebar) */}
           <button
             onClick={toggleSidebar}
             style={{
-              background: 'rgba(128, 128, 128, 0.0)', /* Transparent background */
+              background: 'rgba(128, 128, 128, 0.0)', 
               border: 'none',
               color: 'white',
               cursor: 'pointer',
               fontSize: '1.2em',
               borderRadius: '5px',
               padding: '5px 10px',
-              marginLeft: '10px', /* Adjust spacing from other icons */
+              marginLeft: '10px', 
             }}
           >
-            {isSidebarOpen ? '✕' : '☰'} {/* Change to X when open */}
+            {isSidebarOpen ? '✕' : '☰'}
           </button>
         </div>
       </div>
 
-      {/* Search Menu */}
       <SearchMenu isOpen={isSearchOpen} setIsOpen={setIsSearchOpen} />
 
-      {/* Sidebar */}
       <div
         style={{
           position: 'fixed',
-          top: '60px', /* Start below NavBar */
+          top: '60px',
           right: 0,
-          height: 'fit-content', /* Adjust height */
-          width: 'fit-content', /* Adjust width to content */
+          height: 'fit-content',
+          width: 'fit-content',
           backgroundColor: 'rgba(0, 0, 0, 0.9)',
           zIndex: 999,
-          padding: '10px', /* Reduced padding */
+          padding: '10px',
           boxShadow: '-5px 0 15px rgba(0, 0, 0, 0.5)',
           display: 'flex',
           flexDirection: 'column',
-          gap: '5px', /* Reduced gap */
-          transform: isSidebarOpen ? 'translateX(0)' : 'translateX(100%)', /* Slide in/out */
+          gap: '5px',
+          transform: isSidebarOpen ? 'translateX(0)' : 'translateX(100%)',
           transition: 'transform 0.3s ease-in-out',
         }}
       >
@@ -143,7 +131,7 @@ const NavBar = () => {
               <span style={{ marginRight: '8px', filter: 'grayscale(100%)' }}>{page.icon}</span>
               {page.name}
             </Link>
-            <hr style={{ borderTop: '1px solid rgba(255, 255, 255, 0.1)' }} /> {/* Lighter Separator */}
+            <hr style={{ borderTop: '1px solid rgba(255, 255, 255, 0.1)' }} />
           </React.Fragment>
         ))}
       </div>

@@ -6,14 +6,6 @@ const blogPosts = [
     image: '/neofetch.png',
     date: '2025-07-24',
     topic: 'Technology'
-  },
-  {
-    uid: 'freshman-year',
-    title: 'My Freshman Year Experience',
-    info: '',
-    image: '/freshman-year.png',
-    date: '2025-07-24',
-    topic: 'High School'
   }
 ];
 

@@ -10,6 +10,8 @@ const SearchMenu = ({ isOpen, setIsOpen }) => {
     { name: 'Projects', path: '/projects' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact Me', path: '/contact' },
+    { name: 'Gallery', path: '/gallery' }
+
   ];
 
   const filteredPages = pages.filter((page) =>

@@ -11,64 +11,34 @@ function Projects() {
               <span>Projects </span><span className="text-5xl" style={{ color: '#1a85ff' }}>.</span>
             </h1>
           </div>
-        </div>
-
+        </div>        
         <div className="mt-8 mb-12">
           <h2 className="font-semibold text-medium mb-2">Table of Contents</h2>
           <ul className=" list-inside text-white space-y-1">
-            <li><a href="#bioblitz" className="text-white hover:underline">BioBlitz</a></li>
-            <li><a href="#workflow" className="text-white hover:underline">Workflow</a></li>
+            <li><a href="#bioblitz" className="text-white hover:underline">Bioblitz</a></li>
           </ul>
         </div>
-
+      
         <div className="space-y-12">
           <div id="bioblitz" className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 items-start pt-12 border-t border-white">
             <div className="col-span-1 md:col-span-2">
               <p className="text-sm text-white mb-2">Feb 2025 - Present</p>
               <h3 className="text-xl font-bold text-white mb-3">BioBlitz</h3>
               <p className="text-white leading-relaxed mb-4">
-                A platform and competition format designed to make Biology engaging and fun for students. Features live quizzes, real-time leaderboards, and detailed analytics. I'm still working on this one.
+                What started out as a hackathon project at HackTJ became something I continued. In hindsight, this project was much too large in scale for the hackathon. I'm working with a couple of friends on this currently. Hoping for launch around August 2026. We partenered with <Link to="https://Mitosisphere.org">Mitosisphere</Link>, a group of people that make quality biology questions.
               </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-white text-black text-xs font-medium px-2.5 py-1 rounded-full">Firebase</span>
-                <span className="bg-white text-black text-xs font-medium px-2.5 py-1 rounded-full">Node.js</span>
-                <span className="bg-white text-black text-xs font-medium px-2.5 py-1 rounded-full">TypeScript</span>
-              </div>
               <div className="flex flex-wrap items-center gap-1 mb-4 text-sm">
                 <span className="font-semibold">Links:</span>
-                <a href="https://github.com/aarnav593/hacktj25" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">Github</a>
+                <a href="https://github.com/bioblitz" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">Github</a><span>,</span>
+                <a href="https://bioblitz.net" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">Email list</a>
               </div>
             </div>
             <div className="md:col-span-1 mt-4 md:mt-0 w-full sm:w-11/12 mx-auto md:w-auto md:mx-0">
-              <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full h-auto" width="600" height="400" />
+              <img src="/bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300" width="200" height="200" />
             </div>
           </div>
 
-          <div id="workflow" className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 items-start pt-12 border-t border-white">
-            <div className="col-span-1 md:col-span-2">
-              <p className="text-sm text-white mb-2">2024</p>
-              <h3 className="text-xl font-bold text-white mb-3">Workflow</h3>
-              <p className="text-white leading-relaxed mb-4">
-                I wanted to organize my work. Similar to Notion, but more personalized. Has a pomodoro timer, to-do-list, quick links, notes, and a habit tracker. I integrated this with a to-do list on a seperate page that automatically updates.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-white text-black text-xs font-medium px-2.5 py-1 rounded-full">HTML/CSS</span>
-                <span className="bg-white text-black text-xs font-medium px-2.5 py-1 rounded-full">JavaScript</span>
-              </div>
-              <div className="flex flex-wrap items-center gap-1 mb-4 text-sm">
-                <span className="font-semibold">Links:</span>
-                <a href="https://github.com/ElijahFeldman7/workflow" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">Github</a><span>,</span>
-                <a href="https://elijahfeldman7.github.io/workflow" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">Workflow Website</a><span>,</span>
-                <a href="https://elijahfeldman7.github.io/to-do-list" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white hover:text-white">To-Do List Website</a>
-              </div>
-            </div>
-            <div className="md:col-span-1 mt-4 md:mt-0 flex flex-col gap-4 w-full sm:w-11/12 mx-auto md:w-auto md:mx-0">
-              <img src="/to-do.png" alt="Workflow To-Do Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full h-auto" width="600" height="400" />
-              <img src="/workflow.png" alt="Workflow Main Screenshot" className="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full h-auto" width="600" height="400" />
-            </div>
-          </div>
         </div>
-
         <footer className="text-center text-neutral-500 text-sm p-4 flex flex-col items-center space-y-2">
           <div className="flex items-center justify-center space-x-3">
             <a href="https://github.com/ElijahFeldman7" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
