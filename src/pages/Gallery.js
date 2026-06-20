@@ -12,7 +12,7 @@ function Gallery() {
           <div className="gallery-item" key={index}>
             <img 
               src={image.src} 
-              alt={`Elijah Feldman photo at ${image.caption}`} 
+              alt={`At ${image.caption}`} 
               title={`Elijah Feldman - Full photo from ${image.caption}`} 
             />
             <div className="caption">{image.caption}</div>

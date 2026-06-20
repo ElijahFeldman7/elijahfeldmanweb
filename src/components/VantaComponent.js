@@ -31,7 +31,7 @@ const VantaComponent = ({ children, style }) => {
     return () => {
       if (effect) effect.destroy();
     }
-  }, []); 
+  }, [vantaEffect]);
 
   return (
     <div ref={vantaRef} style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: -1, ...style }}>

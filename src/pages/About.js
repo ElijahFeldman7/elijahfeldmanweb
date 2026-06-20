@@ -8,9 +8,9 @@ function About() {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const toRotate = [" researcher.", " learner.", " developer."];
-
   useEffect(() => {
+    const toRotate = [" researcher.", " learner.", " developer."];
+
     const handleTyping = () => {
       const i = loopNum % toRotate.length;
       const fullText = toRotate[i];
